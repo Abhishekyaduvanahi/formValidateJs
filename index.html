@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form Validation in Js</title>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <header class="signup-header">
+        <h1>signup</h1>
+      </header>
+      
+      <main class="signup-body">
+        <form action="#">
+          <!-- this p tag is for name  -->
+          <p>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Type your name here " id="name">
+            <i class="fa-solid"></i>
+            <span id="nameError"></span>
+          </p>
+          <!-- this p tag is for email  -->
+          <p>
+            <label for="email">Email</label>
+            <input type="email" placeholder="hatcoder@gmail.com" id="email">
+            <i class="fa-solid"></i>
+            <span id="emailError"></span>
+          </p>
+          <!-- this p tag is for password  -->
+          <p>
+            <label for="password">Password</label>
+            <input type="password" placeholder="at least 8 character " id="password">
+            <i class="fa-solid"></i>
+            <span id="passwordError"></span>
+          </p>
+          <p>
+
+            <input type="submit" value="Create Account" id="submitButton">
+          </p>
+          
+          
+        </form>
+      </main>
+      <footer signup-footer>
+        <p>Already have an account <a href="#">login</a></p>
+      </footer>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/50bc406bbd.js" crossorigin="anonymous"></script>
+</body>
+</html>
